@@ -1,0 +1,20 @@
+header {
+    height: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 96px;
+}
+
+.login-btn{
+    height: 48px;
+    width: 96px;
+    background-color: #2e3edf;    
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
