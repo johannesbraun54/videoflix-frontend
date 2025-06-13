@@ -1,0 +1,54 @@
+.landing-container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/landing-img.jpg');
+
+}
+
+
+.landing-text{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    span {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.sign-up-btn {
+    align-items: center;
+    height: 48px;
+    width: 96px;
+    background-color: #2e3edf;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-input {
+    display: flex;
+    justify-content: space-around;
+    input {
+        box-sizing: border-box;
+        border-radius: 40px;
+        padding: 12px 24px;
+        border: 1px solid lightgrey;
+        height: 48px;
+        width: 360px;
+    }
+}
