@@ -1,3 +1,6 @@
 app-landing-component {
-    background-image: url('/images/landing-img.jpg');
+    background-image: url(/images/landing-img.jpg);
+    height: 100vh;
+    display: block;
+    color: white;
 }
