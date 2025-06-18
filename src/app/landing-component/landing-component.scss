@@ -10,6 +10,10 @@ header{
     box-sizing: border-box;
 }
 
+.resp-logo {
+    display: none;
+}
+
 .login-btn{
     height: 48px;
     width: 96px;
@@ -106,6 +110,52 @@ footer {
         &:hover {
             cursor: pointer;
             text-decoration: underline;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 24px;
+    }
+
+    .resp-logo {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .landing-container {
+        top: calc(50% - 64px);
+    }
+
+    .landing-content {
+        gap: 16px;
+    }
+
+    .landing-text {
+        font-size: 32px;
+        gap: 16px;
+    }
+
+    .landing-input {
+        flex-direction: column;
+        align-items: center;
+        input {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 16px 0;
+        span {
+            margin-bottom: 8px;
         }
     }
 }
