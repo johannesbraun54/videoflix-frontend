@@ -3,7 +3,7 @@ app-landing-component {
     object-fit: cover;
     background-size: cover;
     height: 100vh;
-    display: block;
+    display: flex;
     color: white;
 
     &::after {

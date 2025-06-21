@@ -33,8 +33,10 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: calc(50% - 108px);
+    // top: calc(50% - 108px);
     z-index: 3;
+    text-align: center;
+    width: 100%;
 }
 
 .landing-content {
@@ -128,7 +130,7 @@ footer {
 
 @media (max-width: 768px) {
     header {
-        padding: 10px 24px;
+            padding: 10px 16px;
     }
 
     .resp-logo {
@@ -144,7 +146,8 @@ footer {
     }
 
     .landing-container {
-        top: calc(50% - 64px);
+        // top: calc(50% - 64px);
+        padding: 0 16px;
     }
 
     .landing-content {
@@ -156,7 +159,7 @@ footer {
     }
 
     .landing-text {
-        font-size: 32px;
+        font-size: 40px;
         gap: 16px;
     }
 
@@ -166,17 +169,12 @@ footer {
 
         input {
             width: 100%;
-            margin-bottom: 8px;
+            margin-bottom: 16px;
         }
     }
 
     footer {
-        flex-direction: column;
-        height: auto;
-        padding: 16px 0;
+        padding: 10px 16px;
 
-        span {
-            margin-bottom: 8px;
-        }
     }
 }
