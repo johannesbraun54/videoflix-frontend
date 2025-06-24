@@ -1,3 +1,5 @@
+@import './../../styles.scss';
+
 header {
     height: 108px;
     display: flex;
@@ -17,7 +19,7 @@ header {
 .login-btn {
     height: 48px;
     width: 96px;
-    background-color: #2e3edf;
+    background-color: $primary-button-color;
     color: white;
     border: none;
     border-radius: 40px;
@@ -33,7 +35,6 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    // top: calc(50% - 108px);
     z-index: 3;
     text-align: center;
     width: 100%;
@@ -76,7 +77,7 @@ header {
     align-items: center;
     height: 48px;
     width: 142px;
-    background-color: #2e3edf;
+    background-color: $primary-button-color;
     color: white;
     border: none;
     border-radius: 40px;
@@ -146,7 +147,6 @@ footer {
     }
 
     .landing-container {
-        // top: calc(50% - 64px);
         padding: 0 16px;
     }
 
