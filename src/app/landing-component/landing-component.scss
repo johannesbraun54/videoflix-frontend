@@ -1,4 +1,4 @@
-@import './../../styles.scss';
+@use '../../styles/mixins' as *;
 
 header {
     height: 108px;
@@ -37,7 +37,6 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
-
 
 .landing-text {
     font-size: 48px;
@@ -98,7 +97,6 @@ footer {
         }
     }
 }
-
 
 @media (max-width: 768px) {
     header {

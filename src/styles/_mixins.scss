@@ -1,0 +1,16 @@
+@mixin dFlex($jc: center, $ai: center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+  }
+  
+  @mixin button-style($g: 10px) {
+    background-color: #2e3edf;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    @include dFlex();
+    gap: $g;
+    padding: 12px 24px;
+  }

@@ -1,24 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-$primary-button-color: #2e3edf;
-
-@mixin dFlex($jc: center, $ai: center) {
-  display: flex;
-  justify-content: $jc;
-  align-items: $ai;
-}
-
-@mixin button-style($g: 10px) {
-  background-color: #2e3edf;
-  color: white;
-  border: none;
-  border-radius: 40px;
-  cursor: pointer;
-  @include dFlex();
-  gap: $g;
-  padding: 12px 24px;
-}
-
 @font-face {
   font-family: 'DM Sans';
   src: url(/fonts/dm-sans/dm-sans-latin-400-normal.woff2) format('woff2');
