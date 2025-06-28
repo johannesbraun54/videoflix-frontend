@@ -95,11 +95,18 @@ header {
         border: 1px solid white;
         height: 48px;
         width: 360px;
-        background: #1C1A20CC
+        background: #1C1A20CC;
+        color: white;
+        font-size: 18px;
     }
 
     input::placeholder {
         color: white;
+    }
+
+    :focus{
+        outline: none;
+        // border: 1px solid #2e3edf;
     }
 }
 

@@ -13,8 +13,9 @@
         </section>
         <p class="email-text">Enter your email to create or restart your subscription</p>
         <section class="landing-input">
-            <input id="landingInput" type="text" placeholder="Email Address" />
-            <a routerLink="signup" class="sign-up-btn">Sign Up ></a>
+            <input id="landingInput" [(ngModel)]="emailForSignUp" type="text" placeholder="Email Address" />
+            <a class="sign-up-btn" (click)="routeToSignUp()">Sign Up ></a>
+            <!-- routerLink="signup" -->
         </section>
     </section>
     <footer>
