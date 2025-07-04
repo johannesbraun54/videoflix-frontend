@@ -19,7 +19,7 @@ export class LandingComponent {
 
   routeToSignUp() {
     console.log('Sign Up clicked with email:', this.emailForSignUp);
-    this.authService.http.post('/api/signup', { email: this.emailForSignUp }).subscribe(response => {
+    this.authService.http.post('http://127.0.0.1:8000/auth-api/email_availability/', { email: this.emailForSignUp }).subscribe(response => {
       console.log('reponse is:', response);
     })
   }
